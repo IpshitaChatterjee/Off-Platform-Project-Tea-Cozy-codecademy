@@ -1,13 +1,13 @@
 * {
     font-family: Helvetica, sans-serif;
     color: seashell;
-    background-color: black;
     text-align: center;
-    opacity: 0.9;
+    background-color: black;
 }
 
 p, li, h4 {
     font-size: 22px;
+    opacity: 0.9;
 }
 
 img {
@@ -47,7 +47,7 @@ img {
 /* hero styling */
 
 .mission {
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 80px 20px;
 }
 
 .mission img {
@@ -64,12 +64,12 @@ img {
     align-content: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     opacity: 1;
     line-height: 0px;
 }
 
 .mission .banner {
+    position: absolute;
     z-index: 2;
     top: 350px;
     width: 100%;
@@ -78,5 +78,35 @@ img {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 40px;
+    opacity: 0.9;
+}
+
+.featured-tea .banner {
+    margin-bottom: 20px;
+}
+
+.tea-cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-bottom: 80px;
+}
+
+.tea-card-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.tea-cards img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tea-card-item p {
+    font-weight: bold;
 }
